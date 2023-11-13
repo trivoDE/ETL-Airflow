@@ -1,0 +1,7 @@
+numpy
+pandas
+requests
+vnstock
+plotly
+openpyxl
+pyodbc

@@ -1,0 +1,2 @@
+Get CDN 8564 rows
+Sum 8564 rows

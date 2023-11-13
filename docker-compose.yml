@@ -1,0 +1,12 @@
+version: '3'
+services:
+  con:
+    container_name: ConAirflow1 # Thêm tên container
+    build: .
+    image: ima_airflow:0.0.1  # Thêm tên image
+    #restart: always
+    volumes:
+      - ./airflow:/opt/airflow
+    ports:
+      - "8080:8080"
+    command: airflow standalone
