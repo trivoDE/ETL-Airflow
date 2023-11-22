@@ -1,0 +1,51 @@
+[2023-11-22T08:01:06.298+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_WorldIndices.Extract_WorldIndices scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-22T08:01:06.348+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_WorldIndices.Extract_WorldIndices scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-22T08:01:06.349+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-22T08:01:06.446+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): Extract_WorldIndices> on 2023-11-22 00:00:00+00:00
+[2023-11-22T08:01:06.460+0000] {standard_task_runner.py:57} INFO - Started process 1771 to run task
+[2023-11-22T08:01:06.469+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_WorldIndices', 'Extract_WorldIndices', 'scheduled__2023-11-22T00:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/ETL_WorldIndices.py', '--cfg-path', '/tmp/tmpevf6l007']
+[2023-11-22T08:01:06.473+0000] {standard_task_runner.py:85} INFO - Job 18: Subtask Extract_WorldIndices
+[2023-11-22T08:01:06.701+0000] {task_command.py:416} INFO - Running <TaskInstance: ETL_WorldIndices.Extract_WorldIndices scheduled__2023-11-22T00:00:00+00:00 [running]> on host f85e85ef96bb
+[2023-11-22T08:01:07.043+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='MinhTri' AIRFLOW_CTX_DAG_ID='ETL_WorldIndices' AIRFLOW_CTX_TASK_ID='Extract_WorldIndices' AIRFLOW_CTX_EXECUTION_DATE='2023-11-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-22T00:00:00+00:00'
+[2023-11-22T08:01:08.435+0000] {python.py:194} INFO - Done. Returned value was:                                    Open          High  ...  Stock Splits       Code
+Date                                                   ...                         
+2023-11-15 00:00:00-05:00   4505.299805   4521.169922  ...           0.0      ^GSPC
+2023-11-16 00:00:00-05:00   4497.080078   4511.990234  ...           0.0      ^GSPC
+2023-11-17 00:00:00-05:00   4509.549805   4520.120117  ...           0.0      ^GSPC
+2023-11-20 00:00:00-05:00   4511.700195   4557.109863  ...           0.0      ^GSPC
+2023-11-21 00:00:00-05:00   4538.770020   4542.140137  ...           0.0      ^GSPC
+2023-11-15 00:00:00+00:00   7440.500000   7533.799805  ...           0.0      ^FTSE
+2023-11-16 00:00:00+00:00   7486.899902   7492.799805  ...           0.0      ^FTSE
+2023-11-17 00:00:00+00:00   7411.000000   7509.000000  ...           0.0      ^FTSE
+2023-11-20 00:00:00+00:00   7504.299805   7506.000000  ...           0.0      ^FTSE
+2023-11-21 00:00:00+00:00   7496.399902   7496.899902  ...           0.0      ^FTSE
+2023-11-15 00:00:00+09:00   2482.209961   2487.419922  ...           0.0      ^KS11
+2023-11-16 00:00:00+09:00   2483.479980   2491.979980  ...           0.0      ^KS11
+2023-11-17 00:00:00+09:00   2477.429932   2481.100098  ...           0.0      ^KS11
+2023-11-20 00:00:00+09:00   2464.719971   2499.750000  ...           0.0      ^KS11
+2023-11-21 00:00:00+09:00   2504.699951   2517.739990  ...           0.0      ^KS11
+2023-11-15 00:00:00-05:00  34906.718750  35051.101562  ...           0.0       ^DJI
+2023-11-16 00:00:00-05:00  34868.031250  35022.460938  ...           0.0       ^DJI
+2023-11-17 00:00:00-05:00  34964.820312  35028.218750  ...           0.0       ^DJI
+2023-11-20 00:00:00-05:00  34932.488281  35227.480469  ...           0.0       ^DJI
+2023-11-21 00:00:00-05:00  35104.839844  35118.039062  ...           0.0       ^DJI
+2023-11-15 00:00:00+09:00  33112.308594  33556.519531  ...           0.0      ^N225
+2023-11-16 00:00:00+09:00  33399.589844  33614.128906  ...           0.0      ^N225
+2023-11-17 00:00:00+09:00  33344.851562  33599.628906  ...           0.0      ^N225
+2023-11-20 00:00:00+09:00  33559.621094  33853.460938  ...           0.0      ^N225
+2023-11-21 00:00:00+09:00  33453.148438  33460.320312  ...           0.0      ^N225
+2023-11-15 00:00:00+08:00   3077.029053   3080.127930  ...           0.0  000001.SS
+2023-11-16 00:00:00+08:00   3066.854980   3071.451904  ...           0.0  000001.SS
+2023-11-17 00:00:00+08:00   3043.620117   3055.860107  ...           0.0  000001.SS
+2023-11-20 00:00:00+08:00   3056.927002   3072.512939  ...           0.0  000001.SS
+2023-11-21 00:00:00+08:00   3074.827881   3089.773926  ...           0.0  000001.SS
+2023-11-15 00:00:00+01:00  15631.669922  15759.839844  ...           0.0     ^GDAXI
+2023-11-16 00:00:00+01:00  15806.910156  15862.089844  ...           0.0     ^GDAXI
+2023-11-17 00:00:00+01:00  15828.780273  15952.450195  ...           0.0     ^GDAXI
+2023-11-20 00:00:00+01:00  15915.240234  15929.929688  ...           0.0     ^GDAXI
+2023-11-21 00:00:00+01:00  15911.019531  15948.070312  ...           0.0     ^GDAXI
+
+[35 rows x 8 columns]
+[2023-11-22T08:01:08.648+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ETL_WorldIndices, task_id=Extract_WorldIndices, execution_date=20231122T000000, start_date=20231122T080106, end_date=20231122T080108
+[2023-11-22T08:01:08.771+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-22T08:01:08.929+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

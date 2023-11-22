@@ -1,0 +1,26 @@
+[2023-11-22T08:01:15.701+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_Commodity.Extract_Commodity scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-22T08:01:15.753+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_Commodity.Extract_Commodity scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-22T08:01:15.754+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-11-22T08:01:15.880+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): Extract_Commodity> on 2023-11-22 00:00:00+00:00
+[2023-11-22T08:01:15.891+0000] {standard_task_runner.py:57} INFO - Started process 1830 to run task
+[2023-11-22T08:01:15.895+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_Commodity', 'Extract_Commodity', 'scheduled__2023-11-22T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/ETL_Commodity.py', '--cfg-path', '/tmp/tmp_reaz4es']
+[2023-11-22T08:01:15.897+0000] {standard_task_runner.py:85} INFO - Job 19: Subtask Extract_Commodity
+[2023-11-22T08:01:16.074+0000] {task_command.py:416} INFO - Running <TaskInstance: ETL_Commodity.Extract_Commodity scheduled__2023-11-22T00:00:00+00:00 [running]> on host f85e85ef96bb
+[2023-11-22T08:01:16.443+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='trivominhit@gmail.com' AIRFLOW_CTX_DAG_OWNER='MinhTri' AIRFLOW_CTX_DAG_ID='ETL_Commodity' AIRFLOW_CTX_TASK_ID='Extract_Commodity' AIRFLOW_CTX_EXECUTION_DATE='2023-11-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-22T00:00:00+00:00'
+[2023-11-22T08:01:34.620+0000] {python.py:194} INFO - Done. Returned value was:         name lastUpdated   price  ...       change1Y       changeMTD      changeYTD
+1527  Cao su  2022-11-23  127.10  ...                     0.0 (0.0%)     0.0 (0.0%)
+1528  Cao su  2022-11-24  126.70  ...                  -0.4 (-0.32%)  -0.4 (-0.32%)
+1529  Cao su  2022-11-25  126.10  ...                  -1.0 (-0.79%)  -1.0 (-0.79%)
+1530  Cao su  2022-11-28  126.10  ...                  -1.0 (-0.79%)  -1.0 (-0.79%)
+1531  Cao su  2022-11-29  127.50  ...                    0.4 (0.31%)    0.4 (0.31%)
+...      ...         ...     ...  ...            ...             ...            ...
+1522   Đường  2023-11-15   27.15  ...  7.53 (27.73%)  -0.36 (-1.33%)  7.45 (27.44%)
+1523   Đường  2023-11-16   27.19  ...  7.71 (28.36%)  -0.32 (-1.18%)  7.49 (27.55%)
+1524   Đường  2023-11-17   27.18  ...  7.63 (28.07%)  -0.33 (-1.21%)  7.48 (27.52%)
+1525   Đường  2023-11-20   27.56  ...  8.17 (29.64%)    0.05 (0.18%)  7.86 (28.52%)
+1526   Đường  2023-11-21   27.75  ...   8.27 (29.8%)    0.24 (0.86%)  8.05 (29.01%)
+
+[2046 rows x 13 columns]
+[2023-11-22T08:01:34.895+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ETL_Commodity, task_id=Extract_Commodity, execution_date=20231122T000000, start_date=20231122T080115, end_date=20231122T080134
+[2023-11-22T08:01:35.013+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-22T08:01:35.121+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

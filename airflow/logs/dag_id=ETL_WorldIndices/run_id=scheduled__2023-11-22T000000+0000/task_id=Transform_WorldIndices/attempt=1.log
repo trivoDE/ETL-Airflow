@@ -1,0 +1,50 @@
+[2023-11-22T08:01:50.378+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_WorldIndices.Transform_WorldIndices scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-22T08:01:50.431+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_WorldIndices.Transform_WorldIndices scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-22T08:01:50.432+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-22T08:01:50.539+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): Transform_WorldIndices> on 2023-11-22 00:00:00+00:00
+[2023-11-22T08:01:50.555+0000] {standard_task_runner.py:57} INFO - Started process 1964 to run task
+[2023-11-22T08:01:50.560+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_WorldIndices', 'Transform_WorldIndices', 'scheduled__2023-11-22T00:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/ETL_WorldIndices.py', '--cfg-path', '/tmp/tmpojcj7z6c']
+[2023-11-22T08:01:50.563+0000] {standard_task_runner.py:85} INFO - Job 21: Subtask Transform_WorldIndices
+[2023-11-22T08:01:50.797+0000] {task_command.py:416} INFO - Running <TaskInstance: ETL_WorldIndices.Transform_WorldIndices scheduled__2023-11-22T00:00:00+00:00 [running]> on host f85e85ef96bb
+[2023-11-22T08:01:51.378+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='MinhTri' AIRFLOW_CTX_DAG_ID='ETL_WorldIndices' AIRFLOW_CTX_TASK_ID='Transform_WorldIndices' AIRFLOW_CTX_EXECUTION_DATE='2023-11-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-22T00:00:00+00:00'
+[2023-11-22T08:01:51.413+0000] {python.py:194} INFO - Done. Returned value was:           date  openPrice  highPrice  ...   code        name             id
+0   2023-11-15    4505.30    4521.17  ...   GSPC     S&P 500   GSPC20231115
+1   2023-11-16    4497.08    4511.99  ...   GSPC     S&P 500   GSPC20231116
+2   2023-11-17    4509.55    4520.12  ...   GSPC     S&P 500   GSPC20231117
+3   2023-11-20    4511.70    4557.11  ...   GSPC     S&P 500   GSPC20231120
+4   2023-11-21    4538.77    4542.14  ...   GSPC     S&P 500   GSPC20231121
+5   2023-11-14    7440.50    7533.80  ...   FTSE    FTSE 100   FTSE20231114
+6   2023-11-15    7486.90    7492.80  ...   FTSE    FTSE 100   FTSE20231115
+7   2023-11-16    7411.00    7509.00  ...   FTSE    FTSE 100   FTSE20231116
+8   2023-11-19    7504.30    7506.00  ...   FTSE    FTSE 100   FTSE20231119
+9   2023-11-20    7496.40    7496.90  ...   FTSE    FTSE 100   FTSE20231120
+10  2023-11-14    2482.21    2487.42  ...   KS11       KOSPI   KS1120231114
+11  2023-11-15    2483.48    2491.98  ...   KS11       KOSPI   KS1120231115
+12  2023-11-16    2477.43    2481.10  ...   KS11       KOSPI   KS1120231116
+13  2023-11-19    2464.72    2499.75  ...   KS11       KOSPI   KS1120231119
+14  2023-11-20    2504.70    2517.74  ...   KS11       KOSPI   KS1120231120
+15  2023-11-15   34906.72   35051.10  ...    DJI   Dow Jones    DJI20231115
+16  2023-11-16   34868.03   35022.46  ...    DJI   Dow Jones    DJI20231116
+17  2023-11-17   34964.82   35028.22  ...    DJI   Dow Jones    DJI20231117
+18  2023-11-20   34932.49   35227.48  ...    DJI   Dow Jones    DJI20231120
+19  2023-11-21   35104.84   35118.04  ...    DJI   Dow Jones    DJI20231121
+20  2023-11-14   33112.31   33556.52  ...   N225  Nikkei 225   N22520231114
+21  2023-11-15   33399.59   33614.13  ...   N225  Nikkei 225   N22520231115
+22  2023-11-16   33344.85   33599.63  ...   N225  Nikkei 225   N22520231116
+23  2023-11-19   33559.62   33853.46  ...   N225  Nikkei 225   N22520231119
+24  2023-11-20   33453.15   33460.32  ...   N225  Nikkei 225   N22520231120
+25  2023-11-14    3077.03    3080.13  ...   SSEC    Shanghai   SSEC20231114
+26  2023-11-15    3066.85    3071.45  ...   SSEC    Shanghai   SSEC20231115
+27  2023-11-16    3043.62    3055.86  ...   SSEC    Shanghai   SSEC20231116
+28  2023-11-19    3056.93    3072.51  ...   SSEC    Shanghai   SSEC20231119
+29  2023-11-20    3074.83    3089.77  ...   SSEC    Shanghai   SSEC20231120
+30  2023-11-14   15631.67   15759.84  ...  GDAXI         DAX  GDAXI20231114
+31  2023-11-15   15806.91   15862.09  ...  GDAXI         DAX  GDAXI20231115
+32  2023-11-16   15828.78   15952.45  ...  GDAXI         DAX  GDAXI20231116
+33  2023-11-19   15915.24   15929.93  ...  GDAXI         DAX  GDAXI20231119
+34  2023-11-20   15911.02   15948.07  ...  GDAXI         DAX  GDAXI20231120
+
+[35 rows x 9 columns]
+[2023-11-22T08:01:51.601+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ETL_WorldIndices, task_id=Transform_WorldIndices, execution_date=20231122T000000, start_date=20231122T080150, end_date=20231122T080151
+[2023-11-22T08:01:51.781+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-22T08:01:51.886+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

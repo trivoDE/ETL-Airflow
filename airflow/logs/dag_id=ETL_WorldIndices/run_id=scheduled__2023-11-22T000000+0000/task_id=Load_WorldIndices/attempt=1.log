@@ -1,0 +1,13 @@
+[2023-11-22T08:02:27.219+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ETL_WorldIndices.Load_WorldIndices scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-22T08:02:27.272+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ETL_WorldIndices.Load_WorldIndices scheduled__2023-11-22T00:00:00+00:00 [queued]>
+[2023-11-22T08:02:27.273+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-11-22T08:02:27.389+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): Load_WorldIndices> on 2023-11-22 00:00:00+00:00
+[2023-11-22T08:02:27.403+0000] {standard_task_runner.py:57} INFO - Started process 2180 to run task
+[2023-11-22T08:02:27.408+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ETL_WorldIndices', 'Load_WorldIndices', 'scheduled__2023-11-22T00:00:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/ETL_WorldIndices.py', '--cfg-path', '/tmp/tmpb57n30ub']
+[2023-11-22T08:02:27.411+0000] {standard_task_runner.py:85} INFO - Job 24: Subtask Load_WorldIndices
+[2023-11-22T08:02:27.621+0000] {task_command.py:416} INFO - Running <TaskInstance: ETL_WorldIndices.Load_WorldIndices scheduled__2023-11-22T00:00:00+00:00 [running]> on host f85e85ef96bb
+[2023-11-22T08:02:28.148+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='MinhTri' AIRFLOW_CTX_DAG_ID='ETL_WorldIndices' AIRFLOW_CTX_TASK_ID='Load_WorldIndices' AIRFLOW_CTX_EXECUTION_DATE='2023-11-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-22T00:00:00+00:00'
+[2023-11-22T08:02:28.324+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-22T08:02:28.354+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ETL_WorldIndices, task_id=Load_WorldIndices, execution_date=20231122T000000, start_date=20231122T080227, end_date=20231122T080228
+[2023-11-22T08:02:28.506+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-22T08:02:28.560+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

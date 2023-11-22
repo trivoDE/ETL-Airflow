@@ -276,3 +276,868 @@ File Path                                   PID    Runtime      # DAGs    # Erro
 /opt/airflow/dags/updateBCTC.py                                      1           0  1.23s           2023-11-22T07:36:23
 /opt/airflow/dags/welcome_dag.py                                     1           0  0.61s           2023-11-22T07:36:21
 ================================================================================
+[2023-11-22T07:36:59.718+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.31s           2023-11-22T07:36:30
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.21s           2023-11-22T07:36:51
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.41s           2023-11-22T07:36:42
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.43s           2023-11-22T07:36:59
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:36:55
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.61s           2023-11-22T07:36:53
+================================================================================
+[2023-11-22T07:37:32.039+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.41s           2023-11-22T07:37:02
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.22s           2023-11-22T07:37:23
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:37:13
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.51s           2023-11-22T07:37:32
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.71s           2023-11-22T07:37:27
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:37:25
+================================================================================
+[2023-11-22T07:38:04.335+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.23s           2023-11-22T07:37:35
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:37:54
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:37:46
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:38:04
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T07:37:59
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:37:56
+================================================================================
+[2023-11-22T07:38:08.232+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T07:38:08.511+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T07:38:36.977+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:38:06
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:38:27
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:38:18
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.41s           2023-11-22T07:38:36
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T07:38:30
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:38:28
+================================================================================
+[2023-11-22T07:39:08.231+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T07:38:39
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.82s           2023-11-22T07:38:58
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.02s           2023-11-22T07:38:49
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T07:39:08
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:39:02
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:39:00
+================================================================================
+[2023-11-22T07:39:40.230+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T07:39:10
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:39:30
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.03s           2023-11-22T07:39:21
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:39:40
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:39:33
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:39:32
+================================================================================
+[2023-11-22T07:40:11.950+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T07:39:42
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:40:02
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:39:52
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.13s           2023-11-22T07:40:11
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:40:05
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:40:03
+================================================================================
+[2023-11-22T07:40:43.675+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:40:14
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.92s           2023-11-22T07:40:34
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:40:24
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:40:43
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:40:38
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:40:35
+================================================================================
+[2023-11-22T07:41:16.003+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:40:45
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.92s           2023-11-22T07:41:06
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:40:55
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.12s           2023-11-22T07:41:16
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.92s           2023-11-22T07:41:09
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:41:07
+================================================================================
+[2023-11-22T07:41:47.742+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T07:41:18
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:41:37
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:41:28
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.22s           2023-11-22T07:41:47
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:41:41
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.52s           2023-11-22T07:41:39
+================================================================================
+[2023-11-22T07:42:20.072+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T07:41:50
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:42:08
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:41:59
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T07:42:20
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.31s           2023-11-22T07:42:13
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:42:10
+================================================================================
+[2023-11-22T07:42:52.617+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T07:42:22
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:42:40
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:42:31
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T07:42:52
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:42:44
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:42:42
+================================================================================
+[2023-11-22T07:43:09.062+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T07:43:09.388+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T07:43:25.164+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:42:54
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:43:11
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:43:03
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:43:25
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.92s           2023-11-22T07:43:15
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:43:13
+================================================================================
+[2023-11-22T07:43:56.647+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T07:43:27
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:43:43
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.02s           2023-11-22T07:43:35
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T07:43:56
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:43:47
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:43:45
+================================================================================
+[2023-11-22T07:44:28.844+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T07:43:58
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:44:14
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:44:07
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T07:44:28
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:44:19
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:44:17
+================================================================================
+[2023-11-22T07:45:00.294+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:44:30
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.92s           2023-11-22T07:44:47
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.02s           2023-11-22T07:44:39
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:45:00
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:44:50
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:44:48
+================================================================================
+[2023-11-22T07:45:32.087+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:45:02
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:45:18
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:45:10
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:45:32
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:45:22
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T07:45:20
+================================================================================
+[2023-11-22T07:46:04.510+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:45:34
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:45:50
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:45:42
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:46:04
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:45:55
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:45:52
+================================================================================
+[2023-11-22T07:46:36.267+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:46:06
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.92s           2023-11-22T07:46:22
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:46:13
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:46:36
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:46:26
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:46:24
+================================================================================
+[2023-11-22T07:47:08.470+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:46:38
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.92s           2023-11-22T07:46:54
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.01s           2023-11-22T07:46:45
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:47:08
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:46:59
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:46:56
+================================================================================
+[2023-11-22T07:47:41.342+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T07:47:10
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:47:25
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:47:16
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.32s           2023-11-22T07:47:41
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T07:47:31
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:47:27
+================================================================================
+[2023-11-22T07:48:10.200+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T07:48:10.597+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T07:48:13.414+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.12s           2023-11-22T07:47:42
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:47:56
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:47:49
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:48:13
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:48:03
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:47:58
+================================================================================
+[2023-11-22T07:48:45.331+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T07:48:14
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:48:28
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:48:21
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.41s           2023-11-22T07:48:45
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.21s           2023-11-22T07:48:35
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:48:30
+================================================================================
+[2023-11-22T07:49:18.114+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T07:48:47
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:49:01
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:48:53
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.51s           2023-11-22T07:49:18
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:49:07
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:49:03
+================================================================================
+[2023-11-22T07:49:50.249+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.71s           2023-11-22T07:49:21
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:49:33
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:49:25
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.51s           2023-11-22T07:49:50
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.81s           2023-11-22T07:49:39
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.61s           2023-11-22T07:49:35
+================================================================================
+[2023-11-22T07:50:22.518+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:49:52
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:50:04
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:49:57
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.32s           2023-11-22T07:50:22
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.21s           2023-11-22T07:50:11
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:50:06
+================================================================================
+[2023-11-22T07:50:54.396+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:50:24
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.13s           2023-11-22T07:50:36
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:50:29
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:50:54
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:50:42
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:50:38
+================================================================================
+[2023-11-22T07:51:26.311+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.32s           2023-11-22T07:50:57
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:51:07
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:51:01
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:51:26
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:51:14
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:51:09
+================================================================================
+[2023-11-22T07:51:58.431+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:51:29
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:51:39
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:51:32
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:51:58
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.21s           2023-11-22T07:51:45
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:51:41
+================================================================================
+[2023-11-22T07:52:30.509+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:52:00
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:52:11
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:52:04
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.42s           2023-11-22T07:52:30
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:52:17
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.61s           2023-11-22T07:52:12
+================================================================================
+[2023-11-22T07:53:02.415+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.31s           2023-11-22T07:52:33
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.04s           2023-11-22T07:52:43
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:52:35
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.41s           2023-11-22T07:53:02
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:52:48
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:52:45
+================================================================================
+[2023-11-22T07:53:10.453+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T07:53:10.744+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T07:53:34.207+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.13s           2023-11-22T07:53:05
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.03s           2023-11-22T07:53:15
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:53:07
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:53:34
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.31s           2023-11-22T07:53:20
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:53:17
+================================================================================
+[2023-11-22T07:54:05.889+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.12s           2023-11-22T07:53:36
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.12s           2023-11-22T07:53:47
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:53:39
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.41s           2023-11-22T07:54:05
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:53:52
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:53:48
+================================================================================
+[2023-11-22T07:54:37.417+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:54:08
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:54:18
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:54:11
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:54:37
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.21s           2023-11-22T07:54:24
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.42s           2023-11-22T07:54:20
+================================================================================
+[2023-11-22T07:55:09.178+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:54:40
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:54:50
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:54:42
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:55:09
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.21s           2023-11-22T07:54:55
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:54:52
+================================================================================
+[2023-11-22T07:55:41.166+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T07:55:11
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:55:21
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:55:15
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:55:41
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T07:55:26
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:55:23
+================================================================================
+[2023-11-22T07:56:12.793+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:55:43
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:55:53
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:55:47
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.22s           2023-11-22T07:56:12
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.02s           2023-11-22T07:55:58
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:55:54
+================================================================================
+[2023-11-22T07:56:44.794+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:56:15
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:56:25
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:56:19
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.41s           2023-11-22T07:56:44
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.21s           2023-11-22T07:56:30
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:56:26
+================================================================================
+[2023-11-22T07:57:16.445+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:56:47
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:56:57
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:56:51
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:57:16
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.21s           2023-11-22T07:57:02
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:56:59
+================================================================================
+[2023-11-22T07:57:47.980+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.31s           2023-11-22T07:57:19
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:57:29
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:57:23
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.23s           2023-11-22T07:57:47
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:57:34
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T07:57:30
+================================================================================
+[2023-11-22T07:58:11.192+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T07:58:11.517+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T07:58:20.018+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:57:50
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:58:00
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:57:54
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:58:20
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.31s           2023-11-22T07:58:07
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:58:02
+================================================================================
+[2023-11-22T07:58:51.898+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.02s           2023-11-22T07:58:22
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:58:32
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:58:26
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:58:51
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.03s           2023-11-22T07:58:38
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:58:34
+================================================================================
+[2023-11-22T07:59:23.947+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:58:54
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:59:04
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:58:58
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:59:23
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T07:59:10
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:59:06
+================================================================================
+[2023-11-22T07:59:55.752+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T07:59:26
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:59:36
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.33s           2023-11-22T07:59:30
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:59:55
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.21s           2023-11-22T07:59:42
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T07:59:37
+================================================================================
+[2023-11-22T08:01:35.708+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-11-22T08:01:36.257+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-11-22T08:01:36.258+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-22T08:01:36.259+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-11-22T08:01:36.261+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T08:01:36.597+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T08:01:37.997+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        0           0
+/opt/airflow/dags/ETL_Commodity.py                                   0           0
+/opt/airflow/dags/ETL_InternationalNews.py                           0           0
+/opt/airflow/dags/updateBCTC.py                                      0           0
+/opt/airflow/dags/welcome_dag.py                                     0           0
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T08:01:37
+================================================================================
+[2023-11-22T08:02:14.846+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Commodity.py                                   0           0
+/opt/airflow/dags/ETL_InternationalNews.py                           0           0
+/opt/airflow/dags/updateBCTC.py                                      0           0
+/opt/airflow/dags/welcome_dag.py                                     0           0
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.31s           2023-11-22T08:02:14
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T08:01:37
+================================================================================
+[2023-11-22T08:02:46.794+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.92s           2023-11-22T08:02:46
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:02:33
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.32s           2023-11-22T08:02:31
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.12s           2023-11-22T08:02:39
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T08:02:37
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:02:35
+================================================================================
+[2023-11-22T08:03:19.005+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T08:03:19
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:03:05
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T08:03:02
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T08:03:11
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.31s           2023-11-22T08:03:09
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:03:06
+================================================================================
+[2023-11-22T08:03:51.350+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T08:03:51
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.93s           2023-11-22T08:03:37
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T08:03:34
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T08:03:43
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T08:03:40
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:03:38
+================================================================================
+[2023-11-22T08:04:23.449+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T08:04:23
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T08:04:09
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T08:04:07
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T08:04:15
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T08:04:13
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:04:10
+================================================================================
+[2023-11-22T08:04:55.337+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T08:04:55
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:04:41
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T08:04:39
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.03s           2023-11-22T08:04:47
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T08:04:46
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:04:43
+================================================================================
+[2023-11-22T08:05:27.800+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T08:05:27
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:05:14
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T08:05:11
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T08:05:21
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T08:05:18
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:05:16
+================================================================================
+[2023-11-22T08:05:58.868+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.81s           2023-11-22T08:05:58
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:05:46
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.01s           2023-11-22T08:05:43
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T08:05:52
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T08:05:50
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.61s           2023-11-22T08:05:48
+================================================================================
+[2023-11-22T08:06:31.027+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T08:06:31
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T08:06:18
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.13s           2023-11-22T08:06:15
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.11s           2023-11-22T08:06:24
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T08:06:22
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:06:20
+================================================================================
+[2023-11-22T08:06:36.782+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T08:06:37.168+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T08:07:02.900+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T08:07:02
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:06:49
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T08:06:47
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T08:06:56
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T08:06:53
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:06:51
+================================================================================
+[2023-11-22T08:07:34.224+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T08:07:34
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:07:21
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T08:07:19
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T08:07:28
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T08:07:25
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:07:23
+================================================================================
+[2023-11-22T08:08:05.997+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T08:08:05
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:07:54
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.32s           2023-11-22T08:07:51
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.03s           2023-11-22T08:08:00
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T08:07:58
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:07:55
+================================================================================
+[2023-11-22T08:08:38.071+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.12s           2023-11-22T08:08:38
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:08:26
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T08:08:23
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T08:08:32
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T08:08:29
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:08:27
+================================================================================
+[2023-11-22T08:09:09.179+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T08:09:09
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:08:58
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.32s           2023-11-22T08:08:55
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T08:09:04
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T08:09:01
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T08:08:59
+================================================================================
+[2023-11-22T08:09:40.169+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  0.91s           2023-11-22T08:09:40
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T08:09:30
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T08:09:27
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.42s           2023-11-22T08:09:37
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.31s           2023-11-22T08:09:34
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:09:32
+================================================================================
+[2023-11-22T08:10:12.203+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T08:10:12
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T08:10:02
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.02s           2023-11-22T08:09:59
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.82s           2023-11-22T08:10:10
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.82s           2023-11-22T08:10:05
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T08:10:03
+================================================================================
+[2023-11-22T08:10:44.111+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.02s           2023-11-22T08:10:44
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:10:33
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T08:10:31
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T08:10:41
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.22s           2023-11-22T08:10:38
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T08:10:35
+================================================================================
+[2023-11-22T08:11:16.411+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T08:11:16
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.81s           2023-11-22T08:11:05
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T08:11:02
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T08:11:14
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.31s           2023-11-22T08:11:10
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T08:11:06
+================================================================================
+[2023-11-22T08:11:37.265+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T08:11:37.562+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T08:11:48.500+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.22s           2023-11-22T08:11:48
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T08:11:36
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T08:11:34
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T08:11:46
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T08:11:41
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T08:11:38
+================================================================================
+[2023-11-22T08:12:19.910+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T08:12:19
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T08:12:09
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.44s           2023-11-22T08:12:07
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T08:12:17
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T08:12:13
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T08:12:11
+================================================================================
