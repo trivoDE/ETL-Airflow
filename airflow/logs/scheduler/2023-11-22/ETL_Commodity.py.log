@@ -1,0 +1,235 @@
+[2023-11-22T07:25:05.678+0000] {processor.py:157} INFO - Started process (PID=273) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:25:05.680+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:25:05.682+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:05.681+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:25:06.147+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:25:06.645+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:06.645+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-22T07:25:06.764+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:06.763+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-22T07:25:06.885+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:06.885+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-22T07:25:06.887+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:06.886+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:25:06.923+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:06.922+0000] {dag.py:2963} INFO - Creating ORM DAG for ETL_Commodity
+[2023-11-22T07:25:06.947+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:06.946+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:25:07.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.461 seconds
+[2023-11-22T07:25:37.602+0000] {processor.py:157} INFO - Started process (PID=284) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:25:37.604+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:25:37.606+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:37.605+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:25:38.276+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:25:38.327+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:38.326+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:25:38.375+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:38.375+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:25:38.564+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.966 seconds
+[2023-11-22T07:26:09.377+0000] {processor.py:157} INFO - Started process (PID=295) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:26:09.379+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:26:09.381+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:09.381+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:26:09.999+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:26:10.058+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:10.057+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:26:10.104+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:10.103+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:26:10.303+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.930 seconds
+[2023-11-22T07:26:41.018+0000] {processor.py:157} INFO - Started process (PID=306) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:26:41.020+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:26:41.022+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:41.022+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:26:41.660+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:26:41.711+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:41.709+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:26:41.770+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:41.770+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:26:41.958+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.944 seconds
+[2023-11-22T07:27:12.545+0000] {processor.py:157} INFO - Started process (PID=317) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:27:12.547+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:27:12.549+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:12.548+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:27:13.295+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:27:13.350+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:13.349+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:27:13.395+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:13.394+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:27:13.704+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.164 seconds
+[2023-11-22T07:27:44.416+0000] {processor.py:157} INFO - Started process (PID=328) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:27:44.418+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:27:44.420+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:44.419+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:27:45.094+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:27:45.160+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:45.159+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:27:45.206+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:45.206+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:27:45.415+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.003 seconds
+[2023-11-22T07:28:29.452+0000] {processor.py:157} INFO - Started process (PID=266) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:28:29.454+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:28:29.456+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:28:29.456+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:28:30.007+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:28:30.037+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:28:30.036+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:28:30.084+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:28:30.084+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:28:30.261+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.812 seconds
+[2023-11-22T07:29:02.644+0000] {processor.py:157} INFO - Started process (PID=283) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:29:02.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:29:02.651+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:02.650+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:29:03.467+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:29:03.533+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:03.532+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:29:03.582+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:03.582+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:29:03.798+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.162 seconds
+[2023-11-22T07:29:34.534+0000] {processor.py:157} INFO - Started process (PID=294) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:29:34.536+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:29:34.538+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:34.538+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:29:35.240+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:29:35.303+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:35.303+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:29:35.347+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:35.347+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:29:35.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.089 seconds
+[2023-11-22T07:30:06.942+0000] {processor.py:157} INFO - Started process (PID=305) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:30:06.945+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:30:06.946+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:06.946+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:30:07.805+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:30:07.869+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:07.868+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:30:07.913+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:07.913+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:30:08.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.159 seconds
+[2023-11-22T07:30:38.884+0000] {processor.py:157} INFO - Started process (PID=316) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:30:38.886+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:30:38.888+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:38.887+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:30:39.581+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:30:39.629+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:39.627+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:30:39.673+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:39.672+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:30:39.866+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.987 seconds
+[2023-11-22T07:31:10.469+0000] {processor.py:157} INFO - Started process (PID=327) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:31:10.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:31:10.474+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:31:10.473+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:31:11.219+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:31:11.264+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:31:11.263+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:31:11.307+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:31:11.307+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:31:11.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.034 seconds
+[2023-11-22T07:34:10.760+0000] {processor.py:157} INFO - Started process (PID=997) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:34:10.763+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:34:10.765+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:10.764+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:34:11.554+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:34:11.600+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:11.599+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:34:11.642+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:11.642+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:34:11.841+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.086 seconds
+[2023-11-22T07:34:42.665+0000] {processor.py:157} INFO - Started process (PID=1008) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:34:42.668+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:34:42.670+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:42.670+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:34:43.425+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:34:43.479+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:43.479+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:34:43.523+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:43.523+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:34:43.711+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.051 seconds
+[2023-11-22T07:35:14.288+0000] {processor.py:157} INFO - Started process (PID=1019) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:35:14.290+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:35:14.292+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:14.292+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:35:14.979+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:35:15.037+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:15.036+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:35:15.081+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:15.080+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:35:15.271+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.986 seconds
+[2023-11-22T07:35:46.244+0000] {processor.py:157} INFO - Started process (PID=1030) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:35:46.247+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:35:46.249+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:46.248+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:35:47.020+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:35:47.092+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:47.090+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:35:47.144+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:47.144+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:35:47.357+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.118 seconds
+[2023-11-22T07:36:18.250+0000] {processor.py:157} INFO - Started process (PID=1041) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:36:18.252+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:36:18.254+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:18.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:36:18.918+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:36:18.968+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:18.967+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:36:19.010+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:19.010+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:36:19.300+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.055 seconds
+[2023-11-22T07:36:50.489+0000] {processor.py:157} INFO - Started process (PID=1052) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:36:50.491+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:36:50.494+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:50.493+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:36:51.253+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:36:51.307+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:51.306+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:36:51.350+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:51.350+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:36:51.600+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.116 seconds
+[2023-11-22T07:37:22.485+0000] {processor.py:157} INFO - Started process (PID=1063) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:37:22.487+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:37:22.489+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:22.488+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:37:23.226+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:37:23.285+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:23.284+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:37:23.325+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:23.325+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:37:23.633+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.153 seconds
+[2023-11-22T07:37:53.861+0000] {processor.py:157} INFO - Started process (PID=1074) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:37:53.863+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:37:53.865+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:53.864+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:37:54.555+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:37:54.608+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:54.607+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:37:54.647+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:54.647+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:37:54.835+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.979 seconds
+[2023-11-22T07:38:25.974+0000] {processor.py:157} INFO - Started process (PID=1085) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:38:25.976+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:38:25.978+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:25.978+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:38:26.682+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:38:26.736+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:26.736+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:38:26.777+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:26.777+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:38:26.973+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 1.003 seconds
+[2023-11-22T07:38:57.647+0000] {processor.py:157} INFO - Started process (PID=1096) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:38:57.649+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:38:57.651+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:57.651+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:38:58.130+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:38:58.186+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:58.185+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:38:58.229+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:58.229+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:38:58.401+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.758 seconds
+[2023-11-22T07:39:29.671+0000] {processor.py:157} INFO - Started process (PID=1107) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:39:29.674+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:39:29.676+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:39:29.676+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:39:30.239+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:39:30.295+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:39:30.293+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:39:30.343+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:39:30.343+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:39:30.547+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.881 seconds
+[2023-11-22T07:40:01.318+0000] {processor.py:157} INFO - Started process (PID=1118) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:40:01.320+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:40:01.323+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:01.322+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:40:01.818+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:40:01.878+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:01.877+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:40:01.924+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:01.924+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:40:02.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.819 seconds
+[2023-11-22T07:40:33.472+0000] {processor.py:157} INFO - Started process (PID=1129) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:40:33.474+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:40:33.476+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:33.476+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:40:34.012+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:40:34.063+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:34.063+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:40:34.108+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:34.108+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:40:34.303+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.837 seconds
+[2023-11-22T07:41:05.389+0000] {processor.py:157} INFO - Started process (PID=1140) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:41:05.391+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:41:05.394+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:05.393+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:41:05.952+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:41:06.009+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:06.009+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:41:06.053+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:06.053+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:41:06.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.857 seconds
+[2023-11-22T07:41:36.362+0000] {processor.py:157} INFO - Started process (PID=1151) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:41:36.364+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:41:36.366+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:36.365+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:41:36.853+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:41:36.909+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:36.908+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:41:36.954+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:36.954+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:41:37.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.781 seconds
+[2023-11-22T07:42:07.857+0000] {processor.py:157} INFO - Started process (PID=1162) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:42:07.860+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:42:07.862+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:42:07.862+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:42:08.372+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:42:08.428+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:42:08.427+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:42:08.470+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:42:08.470+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:42:08.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.912 seconds
+[2023-11-22T07:42:39.464+0000] {processor.py:157} INFO - Started process (PID=1173) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:42:39.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:42:39.469+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:42:39.468+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:42:39.952+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:42:40.011+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:42:40.010+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:42:40.056+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:42:40.056+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:42:40.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.780 seconds
+[2023-11-22T07:43:10.860+0000] {processor.py:157} INFO - Started process (PID=1184) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:43:10.861+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:43:10.863+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:10.863+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:43:11.406+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:43:11.472+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:11.471+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:43:11.526+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:11.526+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:43:11.740+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.884 seconds
+[2023-11-22T07:43:42.375+0000] {processor.py:157} INFO - Started process (PID=1195) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:43:42.376+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:43:42.378+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:42.378+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:43:42.933+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:43:42.994+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:42.993+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:43:43.042+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:43.042+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:43:43.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.870 seconds
+[2023-11-22T07:44:14.039+0000] {processor.py:157} INFO - Started process (PID=1206) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:44:14.041+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:44:14.043+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:14.042+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:44:14.553+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:44:14.613+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:14.612+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:44:14.656+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:14.656+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:44:14.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.816 seconds
+[2023-11-22T07:44:46.253+0000] {processor.py:157} INFO - Started process (PID=1217) to work on /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:44:46.255+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_Commodity.py for tasks to queue
+[2023-11-22T07:44:46.257+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:46.257+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:44:46.784+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_Commodity']) retrieved from /opt/airflow/dags/ETL_Commodity.py
+[2023-11-22T07:44:46.846+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:46.845+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:44:46.891+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:46.891+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_Commodity to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:44:47.084+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_Commodity.py took 0.836 seconds

@@ -1,0 +1,249 @@
+[2023-11-22T07:25:02.698+0000] {processor.py:157} INFO - Started process (PID=271) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:25:02.700+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:25:02.702+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:02.702+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:25:03.726+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:25:04.087+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:04.086+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-22T07:25:04.222+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:04.221+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-22T07:25:04.376+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:04.376+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-22T07:25:04.378+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:04.377+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:25:04.417+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:04.416+0000] {dag.py:2963} INFO - Creating ORM DAG for ETL_InternationalNews
+[2023-11-22T07:25:04.440+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:04.439+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:25:04.662+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.967 seconds
+[2023-11-22T07:25:35.222+0000] {processor.py:157} INFO - Started process (PID=282) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:25:35.224+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:25:35.227+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:35.226+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:25:35.952+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:25:35.996+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:35.996+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:25:36.039+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:25:36.039+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:25:36.206+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 0.989 seconds
+[2023-11-22T07:26:06.836+0000] {processor.py:157} INFO - Started process (PID=293) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:26:06.838+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:26:06.840+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:06.839+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:26:07.631+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:26:07.688+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:07.688+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:26:07.737+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:07.736+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:26:07.939+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.107 seconds
+[2023-11-22T07:26:38.357+0000] {processor.py:157} INFO - Started process (PID=304) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:26:38.359+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:26:38.361+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:38.361+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:26:39.124+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:26:39.185+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:39.184+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:26:39.242+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:26:39.242+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:26:39.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.097 seconds
+[2023-11-22T07:27:09.759+0000] {processor.py:157} INFO - Started process (PID=315) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:27:09.761+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:27:09.763+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:09.762+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:27:10.627+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:27:10.686+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:10.685+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:27:10.746+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:10.745+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:27:10.948+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.194 seconds
+[2023-11-22T07:27:41.654+0000] {processor.py:157} INFO - Started process (PID=326) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:27:41.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:27:41.658+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:41.658+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:27:42.555+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:27:42.612+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:42.612+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:27:42.662+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:27:42.662+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:27:42.846+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.196 seconds
+[2023-11-22T07:28:27.087+0000] {processor.py:157} INFO - Started process (PID=209) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:28:27.088+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:28:27.090+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:28:27.090+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:28:27.908+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:28:27.932+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:28:27.932+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:28:27.977+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:28:27.977+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:28:28.141+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.058 seconds
+[2023-11-22T07:29:00.243+0000] {processor.py:157} INFO - Started process (PID=281) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:29:00.245+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:29:00.247+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:00.246+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:29:01.120+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:29:01.179+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:01.178+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:29:01.225+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:01.225+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:29:01.435+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.196 seconds
+[2023-11-22T07:29:32.024+0000] {processor.py:157} INFO - Started process (PID=292) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:29:32.026+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:29:32.028+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:32.027+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:29:32.846+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:29:32.894+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:32.893+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:29:32.940+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:29:32.940+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:29:33.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.102 seconds
+[2023-11-22T07:30:04.391+0000] {processor.py:157} INFO - Started process (PID=303) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:30:04.393+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:30:04.395+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:04.394+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:30:05.319+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:30:05.375+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:05.375+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:30:05.418+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:05.418+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:30:05.626+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.239 seconds
+[2023-11-22T07:30:36.146+0000] {processor.py:157} INFO - Started process (PID=314) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:30:36.148+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:30:36.151+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:36.150+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:30:37.100+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:30:37.162+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:37.161+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:30:37.227+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:30:37.226+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:30:37.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.285 seconds
+[2023-11-22T07:31:07.950+0000] {processor.py:157} INFO - Started process (PID=325) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:31:07.952+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:31:07.954+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:31:07.954+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:31:08.808+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:31:08.859+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:31:08.859+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:31:08.902+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:31:08.902+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:31:09.072+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.126 seconds
+[2023-11-22T07:31:40.272+0000] {processor.py:157} INFO - Started process (PID=336) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:31:40.274+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:31:40.277+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:31:40.276+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:31:41.262+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:31:41.307+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:31:41.306+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:31:41.351+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:31:41.351+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-21T16:00:00+00:00, run_after=2023-11-22T00:00:00+00:00
+[2023-11-22T07:31:41.679+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.413 seconds
+[2023-11-22T07:34:01.694+0000] {processor.py:157} INFO - Started process (PID=924) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:34:01.696+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:34:01.698+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:01.697+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:34:02.474+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:34:02.530+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:02.528+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:34:02.572+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:02.572+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:34:02.771+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.082 seconds
+[2023-11-22T07:34:33.689+0000] {processor.py:157} INFO - Started process (PID=1006) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:34:33.691+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:34:33.694+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:33.693+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:34:34.538+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:34:34.593+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:34.592+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:34:34.636+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:34:34.636+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:34:34.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.136 seconds
+[2023-11-22T07:35:05.093+0000] {processor.py:157} INFO - Started process (PID=1017) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:35:05.095+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:35:05.097+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:05.096+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:35:05.837+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:35:05.888+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:05.887+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:35:05.925+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:05.925+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:35:06.141+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.052 seconds
+[2023-11-22T07:35:36.343+0000] {processor.py:157} INFO - Started process (PID=1028) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:35:36.345+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:35:36.347+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:36.347+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:35:37.134+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:35:37.190+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:37.190+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:35:37.230+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:35:37.230+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:35:37.444+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.106 seconds
+[2023-11-22T07:36:08.681+0000] {processor.py:157} INFO - Started process (PID=1039) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:36:08.683+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:36:08.686+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:08.685+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:36:09.531+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:36:09.582+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:09.581+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:36:09.622+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:09.622+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:36:09.902+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.226 seconds
+[2023-11-22T07:36:40.888+0000] {processor.py:157} INFO - Started process (PID=1050) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:36:40.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:36:40.892+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:40.892+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:36:41.763+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:36:41.814+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:41.813+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:36:41.857+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:36:41.857+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:36:42.197+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.314 seconds
+[2023-11-22T07:37:12.428+0000] {processor.py:157} INFO - Started process (PID=1061) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:37:12.430+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:37:12.432+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:12.432+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:37:13.274+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:37:13.323+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:13.322+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:37:13.362+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:13.361+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:37:13.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.206 seconds
+[2023-11-22T07:37:45.028+0000] {processor.py:157} INFO - Started process (PID=1072) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:37:45.030+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:37:45.032+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:45.031+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:37:45.865+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:37:45.922+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:45.921+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:37:45.962+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:37:45.962+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:37:46.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.133 seconds
+[2023-11-22T07:38:16.989+0000] {processor.py:157} INFO - Started process (PID=1083) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:38:16.991+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:38:16.993+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:16.993+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:38:17.789+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:38:17.842+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:17.841+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:38:17.887+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:17.887+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:38:18.082+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.098 seconds
+[2023-11-22T07:38:48.697+0000] {processor.py:157} INFO - Started process (PID=1094) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:38:48.699+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:38:48.701+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:48.700+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:38:49.361+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:38:49.409+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:49.408+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:38:49.452+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:38:49.451+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:38:49.647+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 0.955 seconds
+[2023-11-22T07:39:20.235+0000] {processor.py:157} INFO - Started process (PID=1105) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:39:20.237+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:39:20.239+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:39:20.239+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:39:20.889+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:39:20.946+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:39:20.946+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:39:20.989+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:39:20.989+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:39:21.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 0.964 seconds
+[2023-11-22T07:39:51.746+0000] {processor.py:157} INFO - Started process (PID=1116) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:39:51.748+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:39:51.751+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:39:51.750+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:39:52.529+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:39:52.597+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:39:52.596+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:39:52.645+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:39:52.645+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:39:52.841+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.100 seconds
+[2023-11-22T07:40:23.353+0000] {processor.py:157} INFO - Started process (PID=1127) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:40:23.355+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:40:23.357+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:23.357+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:40:24.106+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:40:24.160+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:24.160+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:40:24.202+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:24.202+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:40:24.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.047 seconds
+[2023-11-22T07:40:54.784+0000] {processor.py:157} INFO - Started process (PID=1138) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:40:54.786+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:40:54.788+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:54.788+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:40:55.515+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:40:55.573+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:55.572+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:40:55.619+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:40:55.619+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:40:55.809+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.029 seconds
+[2023-11-22T07:41:26.860+0000] {processor.py:157} INFO - Started process (PID=1149) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:41:26.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:41:26.865+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:26.864+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:41:27.592+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:41:27.653+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:27.653+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:41:27.700+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:27.699+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:41:27.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.063 seconds
+[2023-11-22T07:41:58.569+0000] {processor.py:157} INFO - Started process (PID=1160) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:41:58.571+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:41:58.572+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:58.572+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:41:59.264+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:41:59.318+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:59.317+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:41:59.364+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:41:59.364+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:41:59.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 0.999 seconds
+[2023-11-22T07:42:30.180+0000] {processor.py:157} INFO - Started process (PID=1171) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:42:30.182+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:42:30.184+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:42:30.184+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:42:30.916+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:42:30.972+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:42:30.972+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:42:31.017+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:42:31.016+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:42:31.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.062 seconds
+[2023-11-22T07:43:02.489+0000] {processor.py:157} INFO - Started process (PID=1182) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:43:02.491+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:43:02.493+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:02.492+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:43:03.179+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:43:03.238+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:03.237+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:43:03.284+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:03.284+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:43:03.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 0.991 seconds
+[2023-11-22T07:43:34.468+0000] {processor.py:157} INFO - Started process (PID=1193) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:43:34.469+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:43:34.472+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:34.471+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:43:35.132+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:43:35.197+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:35.196+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:43:35.244+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:43:35.244+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:43:35.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 0.963 seconds
+[2023-11-22T07:44:06.095+0000] {processor.py:157} INFO - Started process (PID=1204) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:44:06.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:44:06.099+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:06.099+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:44:06.775+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:44:06.833+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:06.833+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:44:06.876+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:06.876+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:44:07.085+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 0.996 seconds
+[2023-11-22T07:44:38.382+0000] {processor.py:157} INFO - Started process (PID=1215) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:44:38.384+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:44:38.387+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:38.386+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:44:39.042+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:44:39.089+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:39.088+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:44:39.139+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:44:39.139+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:44:39.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 0.950 seconds
+[2023-11-22T07:45:09.889+0000] {processor.py:157} INFO - Started process (PID=1226) to work on /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:45:09.891+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/ETL_InternationalNews.py for tasks to queue
+[2023-11-22T07:45:09.893+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:45:09.892+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:45:10.621+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_InternationalNews']) retrieved from /opt/airflow/dags/ETL_InternationalNews.py
+[2023-11-22T07:45:10.689+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:45:10.688+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-22T07:45:10.736+0000] {logging_mixin.py:154} INFO - [2023-11-22T07:45:10.735+0000] {dag.py:3722} INFO - Setting next_dagrun for ETL_InternationalNews to 2023-11-22T00:00:00+00:00, run_after=2023-11-22T08:00:00+00:00
+[2023-11-22T07:45:10.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/ETL_InternationalNews.py took 1.043 seconds

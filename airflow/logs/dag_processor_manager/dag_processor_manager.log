@@ -1,1002 +1,278 @@
-[2023-11-13T04:06:58.429+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
-[2023-11-13T04:06:58.430+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
-[2023-11-13T04:06:58.431+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
-[2023-11-13T04:06:58.432+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:06:58.626+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:07:01.605+0000] {manager.py:887} INFO - 
+[2023-11-22T07:19:58.294+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-11-22T07:19:58.295+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-22T07:19:58.296+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-11-22T07:19:58.297+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T07:19:58.300+0000] {manager.py:758} INFO - There are 0 files in /opt/airflow/dags
+[2023-11-22T07:24:58.322+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T07:24:58.462+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T07:25:04.769+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  0           0
-/opt/airflow/dags/dag2.py                                  0           0
-/opt/airflow/dags/welcome_dag.py                           0           0
-/opt/airflow/dags/updateBCTC.py                            1           0  2.71s           2023-11-13T04:07:01
-================================================================================
-[2023-11-13T04:07:34.872+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Commodity.py                                   0           0
+/opt/airflow/dags/ETL_WorldIndices.py                                0           1  0.81s           2023-11-22T07:24:59
+/opt/airflow/dags/updateBCTC.py                                      0           0
+/opt/airflow/dags/welcome_dag.py                                     0           0
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.51s           2023-11-22T07:25:01
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  2.11s           2023-11-22T07:25:04
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  2.62s           2023-11-13T04:07:09
-/opt/airflow/dags/dag2.py                                  1           0  2.53s           2023-11-13T04:07:05
-/opt/airflow/dags/updateBCTC.py                            1           0  2.92s           2023-11-13T04:07:34
-/opt/airflow/dags/welcome_dag.py                           1           0  1.51s           2023-11-13T04:07:12
-================================================================================
-[2023-11-13T04:08:07.750+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.81s           2023-11-13T04:07:42
-/opt/airflow/dags/dag2.py                                  1           0  1.71s           2023-11-13T04:07:38
-/opt/airflow/dags/updateBCTC.py                            1           0  1.41s           2023-11-13T04:08:07
-/opt/airflow/dags/welcome_dag.py                           1           0  1.11s           2023-11-13T04:07:45
-================================================================================
-[2023-11-13T04:08:39.107+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:08:14
-/opt/airflow/dags/dag2.py                                  1           0  1.91s           2023-11-13T04:08:10
-/opt/airflow/dags/updateBCTC.py                            1           0  1.11s           2023-11-13T04:08:39
-/opt/airflow/dags/welcome_dag.py                           1           0  0.81s           2023-11-13T04:08:16
-================================================================================
-[2023-11-13T04:09:10.642+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:08:46
-/opt/airflow/dags/dag2.py                                  1           0  1.21s           2023-11-13T04:08:42
-/opt/airflow/dags/updateBCTC.py                            1           0  1.11s           2023-11-13T04:09:10
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:08:47
-================================================================================
-[2023-11-13T04:09:42.520+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:09:18
-/opt/airflow/dags/dag2.py                                  1           0  1.02s           2023-11-13T04:09:14
-/opt/airflow/dags/updateBCTC.py                            1           0  1.11s           2023-11-13T04:09:42
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:09:20
-================================================================================
-[2023-11-13T04:10:14.416+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.23s           2023-11-13T04:09:50
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:09:46
-/opt/airflow/dags/updateBCTC.py                            1           0  1.11s           2023-11-13T04:10:14
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:09:52
-================================================================================
-[2023-11-13T04:10:45.890+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:10:21
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:10:18
-/opt/airflow/dags/updateBCTC.py                            1           0  1.11s           2023-11-13T04:10:45
-/opt/airflow/dags/welcome_dag.py                           1           0  0.41s           2023-11-13T04:10:23
-================================================================================
-[2023-11-13T04:11:17.611+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.23s           2023-11-13T04:10:53
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:10:50
-/opt/airflow/dags/updateBCTC.py                            1           0  1.11s           2023-11-13T04:11:17
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:10:55
-================================================================================
-[2023-11-13T04:11:49.696+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:11:25
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:11:21
-/opt/airflow/dags/updateBCTC.py                            1           0  1.11s           2023-11-13T04:11:49
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:11:27
-================================================================================
-[2023-11-13T04:11:59.423+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:11:59.674+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:12:24.342+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.91s           2023-11-13T04:11:58
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:11:53
-/opt/airflow/dags/updateBCTC.py                            1           0  1.12s           2023-11-13T04:12:24
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:12:00
-================================================================================
-[2023-11-13T04:13:14.399+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.91s           2023-11-13T04:11:58
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:11:53
-/opt/airflow/dags/updateBCTC.py                            1           0  1.21s           2023-11-13T04:13:14
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:12:00
-================================================================================
-[2023-11-13T04:13:48.232+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:13:26
-/opt/airflow/dags/dag2.py                                  1           0  1.41s           2023-11-13T04:13:23
-/opt/airflow/dags/updateBCTC.py                            1           0  1.62s           2023-11-13T04:13:48
-/opt/airflow/dags/welcome_dag.py                           1           0  0.41s           2023-11-13T04:13:27
-================================================================================
-[2023-11-13T04:14:21.005+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.81s           2023-11-13T04:14:00
-/opt/airflow/dags/dag2.py                                  1           0  1.61s           2023-11-13T04:13:56
-/opt/airflow/dags/updateBCTC.py                            1           0  1.51s           2023-11-13T04:14:21
-/opt/airflow/dags/welcome_dag.py                           1           0  0.61s           2023-11-13T04:14:02
-================================================================================
-[2023-11-13T04:14:53.290+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.52s           2023-11-13T04:14:32
-/opt/airflow/dags/dag2.py                                  1           0  1.33s           2023-11-13T04:14:28
-/opt/airflow/dags/updateBCTC.py                            1           0  1.12s           2023-11-13T04:14:53
-/opt/airflow/dags/welcome_dag.py                           1           0  0.81s           2023-11-13T04:14:34
-================================================================================
-[2023-11-13T04:15:24.946+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.31s           2023-11-13T04:15:03
-/opt/airflow/dags/dag2.py                                  1           0  1.22s           2023-11-13T04:15:00
-/opt/airflow/dags/updateBCTC.py                            1           0  1.42s           2023-11-13T04:15:24
-/opt/airflow/dags/welcome_dag.py                           1           0  1.21s           2023-11-13T04:15:06
-================================================================================
-[2023-11-13T04:15:57.578+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.61s           2023-11-13T04:15:35
-/opt/airflow/dags/dag2.py                                  1           0  1.71s           2023-11-13T04:15:32
-/opt/airflow/dags/updateBCTC.py                            1           0  1.61s           2023-11-13T04:15:57
-/opt/airflow/dags/welcome_dag.py                           1           0  0.91s           2023-11-13T04:15:38
-================================================================================
-[2023-11-13T04:16:27.776+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.62s           2023-11-13T04:16:27
-/opt/airflow/dags/dag1.py                                  1           0  2.01s           2023-11-13T04:16:12
-/opt/airflow/dags/dag2.py                                  1           0  1.71s           2023-11-13T04:16:08
-/opt/airflow/dags/welcome_dag.py                           1           0  1.01s           2023-11-13T04:16:19
-================================================================================
-[2023-11-13T04:16:59.600+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.41s           2023-11-13T04:16:59
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:16:44
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:16:40
-/opt/airflow/dags/welcome_dag.py                           1           0  0.61s           2023-11-13T04:16:50
-================================================================================
-[2023-11-13T04:17:00.960+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:17:01.167+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:17:29.973+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.11s           2023-11-13T04:17:13
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:17:19
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:17:16
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:17:21
-================================================================================
-[2023-11-13T04:18:01.143+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:17:37
-/opt/airflow/dags/dag1.py                                  1           0  1.31s           2023-11-13T04:17:51
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:17:48
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:17:53
-================================================================================
-[2023-11-13T04:18:31.728+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.11s           2023-11-13T04:18:31
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:18:22
-/opt/airflow/dags/dag2.py                                  1           0  1.21s           2023-11-13T04:18:20
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:18:24
-================================================================================
-[2023-11-13T04:19:01.918+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.03s           2023-11-13T04:18:41
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:18:54
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:18:51
-/opt/airflow/dags/welcome_dag.py                           1           0  0.41s           2023-11-13T04:18:55
-================================================================================
-[2023-11-13T04:19:32.829+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:19:06
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:19:25
-/opt/airflow/dags/dag2.py                                  1           0  1.21s           2023-11-13T04:19:23
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:19:27
-================================================================================
-[2023-11-13T04:20:02.930+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:19:47
-/opt/airflow/dags/dag1.py                                  1           0  1.22s           2023-11-13T04:19:57
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:19:54
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:19:59
-================================================================================
-[2023-11-13T04:20:33.158+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:20:19
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:20:29
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:20:26
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:20:30
-================================================================================
-[2023-11-13T04:21:03.439+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:20:51
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:21:01
-/opt/airflow/dags/dag2.py                                  1           0  1.13s           2023-11-13T04:20:58
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:21:02
-================================================================================
-[2023-11-13T04:21:34.144+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:21:23
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:21:32
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:21:30
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:21:34
-================================================================================
-[2023-11-13T04:22:01.194+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:22:01.440+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:22:04.506+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:21:55
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:22:04
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:22:02
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:21:34
-================================================================================
-[2023-11-13T04:22:35.068+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:22:12
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:22:04
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:22:35
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:22:05
-================================================================================
-[2023-11-13T04:23:06.360+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:22:44
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:22:37
-/opt/airflow/dags/dag2.py                                  1           0  1.03s           2023-11-13T04:23:06
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:22:39
-================================================================================
-[2023-11-13T04:23:38.151+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.11s           2023-11-13T04:23:20
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:23:09
-/opt/airflow/dags/dag2.py                                  1           0  1.21s           2023-11-13T04:23:38
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:23:11
-================================================================================
-[2023-11-13T04:24:09.685+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:23:51
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:23:41
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:24:09
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:23:43
-================================================================================
-[2023-11-13T04:24:41.354+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:24:23
-/opt/airflow/dags/dag1.py                                  1           0  1.31s           2023-11-13T04:24:13
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:24:41
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:24:14
-================================================================================
-[2023-11-13T04:25:12.802+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:24:55
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:24:44
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:25:12
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:24:46
-================================================================================
-[2023-11-13T04:25:43.962+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:25:26
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:25:16
-/opt/airflow/dags/dag2.py                                  1           0  1.02s           2023-11-13T04:25:43
-/opt/airflow/dags/welcome_dag.py                           1           0  0.41s           2023-11-13T04:25:18
-================================================================================
-[2023-11-13T04:26:15.584+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:25:58
-/opt/airflow/dags/dag1.py                                  1           0  1.22s           2023-11-13T04:25:48
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:26:15
-/opt/airflow/dags/welcome_dag.py                           1           0  0.41s           2023-11-13T04:25:49
-================================================================================
-[2023-11-13T04:26:47.157+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:26:30
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:26:20
-/opt/airflow/dags/dag2.py                                  1           0  1.02s           2023-11-13T04:26:47
-/opt/airflow/dags/welcome_dag.py                           1           0  0.61s           2023-11-13T04:26:22
-================================================================================
-[2023-11-13T04:27:02.098+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:27:02.359+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:27:18.921+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:27:00
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:26:51
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:27:18
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:26:53
-================================================================================
-[2023-11-13T04:27:50.551+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.92s           2023-11-13T04:27:31
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:27:23
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:27:50
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:27:25
-================================================================================
-[2023-11-13T04:28:22.053+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:28:03
-/opt/airflow/dags/dag1.py                                  1           0  1.42s           2023-11-13T04:27:55
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:28:22
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:27:57
-================================================================================
-[2023-11-13T04:28:53.458+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.11s           2023-11-13T04:28:34
-/opt/airflow/dags/dag1.py                                  1           0  1.31s           2023-11-13T04:28:27
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:28:53
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:28:28
-================================================================================
-[2023-11-13T04:29:25.039+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.92s           2023-11-13T04:29:06
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:28:59
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:29:25
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:29:01
-================================================================================
-[2023-11-13T04:29:56.356+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:29:37
-/opt/airflow/dags/dag1.py                                  1           0  1.31s           2023-11-13T04:29:31
-/opt/airflow/dags/dag2.py                                  1           0  1.21s           2023-11-13T04:29:56
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:29:33
-================================================================================
-[2023-11-13T04:30:27.760+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:30:09
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:30:02
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:30:27
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:30:04
-================================================================================
-[2023-11-13T04:30:59.313+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:30:40
-/opt/airflow/dags/dag1.py                                  1           0  1.13s           2023-11-13T04:30:34
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:30:59
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:30:36
-================================================================================
-[2023-11-13T04:31:30.963+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:31:12
-/opt/airflow/dags/dag1.py                                  1           0  1.94s           2023-11-13T04:31:07
-/opt/airflow/dags/dag2.py                                  1           0  1.03s           2023-11-13T04:31:30
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:31:08
-================================================================================
-[2023-11-13T04:32:02.169+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.21s           2023-11-13T04:31:44
-/opt/airflow/dags/dag1.py                                  1           0  1.22s           2023-11-13T04:31:38
-/opt/airflow/dags/dag2.py                                  1           0  1.02s           2023-11-13T04:32:02
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:31:40
-================================================================================
-[2023-11-13T04:32:02.897+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:32:03.144+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:32:33.394+0000] {manager.py:887} INFO - 
+[2023-11-22T07:25:36.282+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:32:16
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:32:10
-/opt/airflow/dags/dag2.py                                  1           0  1.03s           2023-11-13T04:32:33
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:32:12
-================================================================================
-[2023-11-13T04:33:05.062+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_WorldIndices.py                                0           1  0.71s           2023-11-22T07:25:31
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:25:33
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.61s           2023-11-22T07:25:07
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:25:36
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.83s           2023-11-22T07:25:11
+/opt/airflow/dags/welcome_dag.py                                     1           0  1.11s           2023-11-22T07:25:09
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.02s           2023-11-13T04:32:48
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:32:42
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:33:05
-/opt/airflow/dags/welcome_dag.py                           1           0  0.61s           2023-11-13T04:32:44
-================================================================================
-[2023-11-13T04:33:36.252+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:33:19
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:33:14
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:33:36
-/opt/airflow/dags/welcome_dag.py                           1           0  0.41s           2023-11-13T04:33:16
-================================================================================
-[2023-11-13T04:34:07.966+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:33:51
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:33:46
-/opt/airflow/dags/dag2.py                                  1           0  1.41s           2023-11-13T04:34:07
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:33:48
-================================================================================
-[2023-11-13T04:34:39.914+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.93s           2023-11-13T04:34:23
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:34:18
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:34:39
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:34:20
-================================================================================
-[2023-11-13T04:35:12.133+0000] {manager.py:887} INFO - 
-================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.94s           2023-11-13T04:34:55
-/opt/airflow/dags/dag1.py                                  1           0  1.22s           2023-11-13T04:34:50
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:35:12
-/opt/airflow/dags/welcome_dag.py                           1           0  0.81s           2023-11-13T04:34:52
-================================================================================
-[2023-11-13T04:35:43.514+0000] {manager.py:887} INFO - 
+[2023-11-22T07:26:08.004+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:35:27
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:35:23
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:35:43
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:35:25
-================================================================================
-[2023-11-13T04:36:15.399+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_WorldIndices.py                                0           1  0.81s           2023-11-22T07:26:03
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.03s           2023-11-22T07:26:05
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:25:38
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:26:07
+/opt/airflow/dags/updateBCTC.py                                      1           0  2.21s           2023-11-22T07:25:44
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:25:41
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:35:59
-/opt/airflow/dags/dag1.py                                  1           0  1.12s           2023-11-13T04:35:55
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:36:15
-/opt/airflow/dags/welcome_dag.py                           1           0  0.81s           2023-11-13T04:35:57
-================================================================================
-[2023-11-13T04:36:47.343+0000] {manager.py:887} INFO - 
+[2023-11-22T07:26:39.529+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.51s           2023-11-13T04:36:32
-/opt/airflow/dags/dag1.py                                  1           0  1.31s           2023-11-13T04:36:26
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:36:47
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:36:28
-================================================================================
-[2023-11-13T04:37:04.631+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:37:04.894+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:37:19.064+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_WorldIndices.py                                0           1  0.81s           2023-11-22T07:26:34
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.31s           2023-11-22T07:26:37
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:26:10
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:26:39
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:26:16
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:26:12
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:37:03
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:36:57
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:37:19
-/opt/airflow/dags/welcome_dag.py                           1           0  0.71s           2023-11-13T04:37:00
-================================================================================
-[2023-11-13T04:37:49.523+0000] {manager.py:887} INFO - 
+[2023-11-22T07:27:11.033+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.11s           2023-11-13T04:37:49
-/opt/airflow/dags/dag1.py                                  1           0  1.22s           2023-11-13T04:37:30
-/opt/airflow/dags/dag2.py                                  1           0  1.11s           2023-11-13T04:37:19
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:37:32
-================================================================================
-[2023-11-13T04:38:20.097+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_WorldIndices.py                                0           1  0.91s           2023-11-22T07:27:05
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T07:27:08
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.01s           2023-11-22T07:26:41
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:27:11
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:26:47
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T07:26:43
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:37:51
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:38:01
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:37:54
-/opt/airflow/dags/welcome_dag.py                           1           0  0.41s           2023-11-13T04:38:02
-================================================================================
-[2023-11-13T04:38:50.375+0000] {manager.py:887} INFO - 
+[2023-11-22T07:27:42.928+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.82s           2023-11-13T04:38:23
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:38:33
-/opt/airflow/dags/dag2.py                                  1           0  0.92s           2023-11-13T04:38:25
-/opt/airflow/dags/welcome_dag.py                           1           0  0.81s           2023-11-13T04:38:35
-================================================================================
-[2023-11-13T04:39:20.613+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_WorldIndices.py                                0           1  1.01s           2023-11-22T07:27:37
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T07:27:40
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.23s           2023-11-22T07:27:13
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:27:42
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.31s           2023-11-22T07:27:19
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:27:15
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.81s           2023-11-13T04:38:55
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:39:05
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:38:57
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:39:06
-================================================================================
-[2023-11-13T04:39:51.771+0000] {manager.py:887} INFO - 
+[2023-11-22T07:28:21.961+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-11-22T07:28:21.962+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-22T07:28:21.963+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-11-22T07:28:21.963+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T07:28:22.287+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T07:28:23.886+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.71s           2023-11-13T04:39:25
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:39:37
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:39:29
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:39:38
-================================================================================
-[2023-11-13T04:40:22.853+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        0           0
+/opt/airflow/dags/ETL_Commodity.py                                   0           0
+/opt/airflow/dags/ETL_InternationalNews.py                           0           0
+/opt/airflow/dags/updateBCTC.py                                      0           0
+/opt/airflow/dags/welcome_dag.py                                     0           0
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:28:23
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.81s           2023-11-13T04:39:56
-/opt/airflow/dags/dag1.py                                  1           0  1.12s           2023-11-13T04:40:08
-/opt/airflow/dags/dag2.py                                  1           0  0.81s           2023-11-13T04:40:00
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:40:10
-================================================================================
-[2023-11-13T04:40:53.912+0000] {manager.py:887} INFO - 
+[2023-11-22T07:28:56.300+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.81s           2023-11-13T04:40:28
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:40:40
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:40:31
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:40:42
-================================================================================
-[2023-11-13T04:41:24.741+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.11s           2023-11-22T07:28:26
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  0.91s           2023-11-22T07:28:30
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.11s           2023-11-22T07:28:28
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.51s           2023-11-22T07:28:56
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.22s           2023-11-22T07:28:34
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.41s           2023-11-22T07:28:31
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.83s           2023-11-13T04:41:16
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:41:12
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:41:03
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:41:14
-================================================================================
-[2023-11-13T04:41:55.094+0000] {manager.py:887} INFO - 
+[2023-11-22T07:29:28.300+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.71s           2023-11-13T04:41:48
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:41:43
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:41:34
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:41:45
-================================================================================
-[2023-11-13T04:42:05.303+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:42:05.536+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:42:25.545+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:28:58
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.23s           2023-11-22T07:29:03
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:29:01
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:29:28
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.23s           2023-11-22T07:29:08
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:29:05
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.81s           2023-11-13T04:42:20
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:42:15
-/opt/airflow/dags/dag2.py                                  1           0  0.81s           2023-11-13T04:42:06
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:42:17
-================================================================================
-[2023-11-13T04:42:56.412+0000] {manager.py:887} INFO - 
+[2023-11-22T07:30:00.079+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:42:52
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:42:46
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:42:37
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:42:48
-================================================================================
-[2023-11-13T04:43:26.717+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:29:30
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.21s           2023-11-22T07:29:35
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:29:33
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.61s           2023-11-22T07:30:00
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:29:40
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:29:37
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.71s           2023-11-13T04:43:23
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:43:18
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:43:09
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:43:20
-================================================================================
-[2023-11-13T04:43:57.480+0000] {manager.py:887} INFO - 
+[2023-11-22T07:30:32.380+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.81s           2023-11-13T04:43:54
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:43:49
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:43:41
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:43:51
-================================================================================
-[2023-11-13T04:44:27.825+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.61s           2023-11-22T07:30:02
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.22s           2023-11-22T07:30:08
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:30:05
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:30:32
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.01s           2023-11-22T07:30:11
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:30:10
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.81s           2023-11-13T04:44:26
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:44:21
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:44:12
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:44:23
-================================================================================
-[2023-11-13T04:44:58.160+0000] {manager.py:887} INFO - 
+[2023-11-22T07:31:04.264+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.81s           2023-11-13T04:44:58
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:44:52
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:44:44
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:44:54
-================================================================================
-[2023-11-13T04:45:29.871+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.03s           2023-11-22T07:30:34
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:30:39
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.41s           2023-11-22T07:30:37
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.41s           2023-11-22T07:31:04
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.32s           2023-11-22T07:30:44
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:30:41
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.81s           2023-11-13T04:45:29
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:45:24
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:45:15
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:45:26
-================================================================================
-[2023-11-13T04:46:00.841+0000] {manager.py:887} INFO - 
+[2023-11-22T07:31:36.022+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:45:43
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:45:56
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:45:47
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:45:58
-================================================================================
-[2023-11-13T04:46:31.107+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:31:06
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:31:11
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:31:09
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.51s           2023-11-22T07:31:36
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:31:16
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:31:13
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.91s           2023-11-13T04:46:12
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:46:28
-/opt/airflow/dags/dag2.py                                  1           0  0.81s           2023-11-13T04:46:18
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:46:30
-================================================================================
-[2023-11-13T04:47:02.276+0000] {manager.py:887} INFO - 
+[2023-11-22T07:33:07.025+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-11-22T07:33:07.592+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-11-22T07:33:07.593+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-22T07:33:07.595+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-11-22T07:33:07.596+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-11-22T07:33:07.977+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-11-22T07:33:09.474+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  0.71s           2023-11-13T04:46:44
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:47:00
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:46:49
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:47:02
-================================================================================
-[2023-11-13T04:47:06.223+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:47:06.439+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:47:33.632+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        0           0
+/opt/airflow/dags/ETL_Commodity.py                                   0           0
+/opt/airflow/dags/ETL_InternationalNews.py                           0           0
+/opt/airflow/dags/updateBCTC.py                                      0           0
+/opt/airflow/dags/welcome_dag.py                                     0           0
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:33:09
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/updateBCTC.py                            0           1  1.01s           2023-11-13T04:47:16
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:47:31
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:47:21
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:47:33
-================================================================================
-[2023-11-13T04:48:13.101+0000] {manager.py:887} INFO - 
+[2023-11-22T07:33:47.209+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:47:31
-/opt/airflow/dags/dag2.py                                  1           0  0.81s           2023-11-13T04:48:13
-/opt/airflow/dags/updateBCTC.py                            1           0  1.31s           2023-11-13T04:47:44
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:47:33
-================================================================================
-[2023-11-13T04:48:44.973+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_Commodity.py                                   0           0
+/opt/airflow/dags/ETL_InternationalNews.py                           0           0
+/opt/airflow/dags/updateBCTC.py                                      0           0
+/opt/airflow/dags/welcome_dag.py                                     0           0
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.23s           2023-11-22T07:33:47
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.21s           2023-11-22T07:33:09
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:48:15
-/opt/airflow/dags/dag2.py                                  1           0  0.92s           2023-11-13T04:48:44
-/opt/airflow/dags/updateBCTC.py                            1           0  1.01s           2023-11-13T04:48:19
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:48:17
-================================================================================
-[2023-11-13T04:49:17.054+0000] {manager.py:887} INFO - 
+[2023-11-22T07:34:19.377+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.21s           2023-11-13T04:48:47
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:49:17
-/opt/airflow/dags/updateBCTC.py                            1           0  0.91s           2023-11-13T04:48:52
-/opt/airflow/dags/welcome_dag.py                           1           0  1.11s           2023-11-13T04:48:49
-================================================================================
-[2023-11-13T04:49:48.580+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.23s           2023-11-22T07:33:47
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.21s           2023-11-22T07:34:11
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:34:02
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.31s           2023-11-22T07:34:19
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.42s           2023-11-22T07:34:16
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:34:13
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:49:19
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:49:48
-/opt/airflow/dags/updateBCTC.py                            1           0  0.91s           2023-11-13T04:49:24
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:49:21
-================================================================================
-[2023-11-13T04:50:20.401+0000] {manager.py:887} INFO - 
+[2023-11-22T07:34:51.927+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:49:51
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:50:20
-/opt/airflow/dags/updateBCTC.py                            1           0  1.01s           2023-11-13T04:49:56
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:49:53
-================================================================================
-[2023-11-13T04:50:52.132+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.01s           2023-11-22T07:34:21
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.13s           2023-11-22T07:34:43
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:34:34
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.22s           2023-11-22T07:34:51
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.11s           2023-11-22T07:34:48
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:34:45
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:50:23
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:50:52
-/opt/airflow/dags/updateBCTC.py                            1           0  0.91s           2023-11-13T04:50:28
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:50:25
-================================================================================
-[2023-11-13T04:51:23.785+0000] {manager.py:887} INFO - 
+[2023-11-22T07:35:23.576+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:50:55
-/opt/airflow/dags/dag2.py                                  1           0  1.01s           2023-11-13T04:51:23
-/opt/airflow/dags/updateBCTC.py                            1           0  0.82s           2023-11-13T04:50:59
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:50:57
-================================================================================
-[2023-11-13T04:51:55.458+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.31s           2023-11-22T07:34:54
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.11s           2023-11-22T07:35:15
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.12s           2023-11-22T07:35:06
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.41s           2023-11-22T07:35:23
+/opt/airflow/dags/updateBCTC.py                                      1           0  0.91s           2023-11-22T07:35:19
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.61s           2023-11-22T07:35:17
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:51:26
-/opt/airflow/dags/dag2.py                                  1           0  0.81s           2023-11-13T04:51:55
-/opt/airflow/dags/updateBCTC.py                            1           0  0.91s           2023-11-13T04:51:30
-/opt/airflow/dags/welcome_dag.py                           1           0  0.41s           2023-11-13T04:51:28
-================================================================================
-[2023-11-13T04:52:07.113+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
-[2023-11-13T04:52:07.364+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
-[2023-11-13T04:52:26.703+0000] {manager.py:887} INFO - 
+[2023-11-22T07:35:56.057+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:51:57
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:52:26
-/opt/airflow/dags/updateBCTC.py                            1           0  1.11s           2023-11-13T04:52:01
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:51:59
-================================================================================
-[2023-11-13T04:52:58.382+0000] {manager.py:887} INFO - 
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.02s           2023-11-22T07:35:26
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.21s           2023-11-22T07:35:47
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.21s           2023-11-22T07:35:37
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.41s           2023-11-22T07:35:56
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.63s           2023-11-22T07:35:51
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.51s           2023-11-22T07:35:48
 ================================================================================
-DAG File Processing Stats
-
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.01s           2023-11-13T04:52:29
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:52:58
-/opt/airflow/dags/updateBCTC.py                            1           0  0.91s           2023-11-13T04:52:33
-/opt/airflow/dags/welcome_dag.py                           1           0  0.51s           2023-11-13T04:52:30
-================================================================================
-[2023-11-13T04:53:36.663+0000] {manager.py:887} INFO - 
+[2023-11-22T07:36:27.778+0000] {manager.py:887} INFO - 
 ================================================================================
 DAG File Processing Stats
 
-File Path                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
---------------------------------  -----  ---------  --------  ----------  --------------  -------------------
-/opt/airflow/dags/dag1.py                                  1           0  1.11s           2023-11-13T04:53:02
-/opt/airflow/dags/dag2.py                                  1           0  0.91s           2023-11-13T04:52:58
-/opt/airflow/dags/updateBCTC.py                            1           0  0.92s           2023-11-13T04:53:36
-/opt/airflow/dags/welcome_dag.py                           1           0  0.42s           2023-11-13T04:53:04
+File Path                                   PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_BCTC.py                                        1           0  1.21s           2023-11-22T07:35:58
+/opt/airflow/dags/ETL_Commodity.py                                   1           0  1.12s           2023-11-22T07:36:19
+/opt/airflow/dags/ETL_InternationalNews.py                           1           0  1.31s           2023-11-22T07:36:09
+/opt/airflow/dags/ETL_WorldIndices.py                                1           0  1.32s           2023-11-22T07:36:27
+/opt/airflow/dags/updateBCTC.py                                      1           0  1.23s           2023-11-22T07:36:23
+/opt/airflow/dags/welcome_dag.py                                     1           0  0.61s           2023-11-22T07:36:21
 ================================================================================
